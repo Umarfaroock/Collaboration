@@ -1,4 +1,4 @@
-/*package com.niit.collaboration.controller;
+package com.niit.collaboration.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -76,4 +76,4 @@ public class SockController {
 		}
 
 	}
-}*/
+}

@@ -1,4 +1,4 @@
-/*package com.niit.collaboration.controller;
+package com.niit.collaboration.controller;
 
 import java.util.List;
 
@@ -67,4 +67,4 @@ public class EventController {
 		return new ResponseEntity(event, HttpStatus.OK);
 	}
 
-}*/
+}

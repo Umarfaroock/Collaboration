@@ -12,7 +12,7 @@ import org.springframework.web.socket.config.annotation.WebSocketMessageBrokerCo
 @Configuration
 @EnableWebSocketMessageBroker  // enable broker based stomp messaging
 @EnableScheduling
-@ComponentScan(basePackages="com.niit")
+@ComponentScan(basePackages="com.niit.*")
 public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
 	public void registerStompEndpoints(StompEndpointRegistry registry) {
 		System.out.println("REGISTER STOMP ENDPOINTS...");

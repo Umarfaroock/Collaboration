@@ -1,4 +1,4 @@
-/*package com.niit.collaboration.controller;
+package com.niit.collaboration.controller;
 
 import java.util.List;
 
@@ -103,4 +103,4 @@ public class FriendController {
 		return new ResponseEntity(friendid, HttpStatus.OK);
 
 	}
-}*/
+}

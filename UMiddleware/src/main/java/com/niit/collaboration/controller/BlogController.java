@@ -1,4 +1,4 @@
-/*package com.niit.collaboration.controller;
+package com.niit.collaboration.controller;
 
 import java.util.Date;
 import java.util.List;
@@ -110,4 +110,4 @@ public class BlogController {
 
 		return new ResponseEntity(blog, HttpStatus.OK);
 	}
-}*/
+}

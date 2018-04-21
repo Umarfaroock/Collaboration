@@ -1,4 +1,4 @@
-/*package com.niit.collaboration.controller;
+package com.niit.collaboration.controller;
 
 import java.util.Date;
 import java.util.List;
@@ -97,4 +97,4 @@ public class ForumController {
 		return new ResponseEntity(forum, HttpStatus.OK);
 	}
 
-}*/
+}

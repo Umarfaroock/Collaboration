@@ -1,4 +1,4 @@
-/*package com.niit.collaboration.controller;
+package com.niit.collaboration.controller;
 
 import java.util.List;
 
@@ -110,4 +110,4 @@ public class BlogcommentController {
 
 		return new ResponseEntity(blogcomment, HttpStatus.OK);
 	}
-}*/
+}
