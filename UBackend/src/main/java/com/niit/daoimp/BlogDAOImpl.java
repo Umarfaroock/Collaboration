@@ -27,6 +27,7 @@ public class BlogDAOImpl implements BlogDAO  {
 		@SuppressWarnings("unchecked")
 		List<Blog> listBlog = (List<Blog>)sessionFactory.getCurrentSession().createCriteria(Blog.class)
 		 .setResultTransformer(Criteria.DISTINCT_ROOT_ENTITY).list();
+		System.out.println("listblog"+listBlog.size());
 		return listBlog;
 	}
 	@Transactional
