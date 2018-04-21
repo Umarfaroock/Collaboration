@@ -4,7 +4,7 @@ app.service('UserService', ['$http', '$q','$rootScope', function($http, $q,$root
 	
 	console.log("UserService...")
 	
- var BASE_URL = 'http://localhost:8086/RestfulServices'	;	
+ var BASE_URL = 'http://localhost:8086/UMiddleware'	;	
     return {
          
             fetchAllUsers: function() {
